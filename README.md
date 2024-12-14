@@ -1,1 +1,1 @@
-# use_it_or_lose_it
+# _Weight regularization in spiking neural networks_
