@@ -1,1 +1,1 @@
-# _Weight regularization in spiking neural networks_
+# __Weight regularization in spiking neural networks__
