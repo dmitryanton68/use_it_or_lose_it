@@ -10,4 +10,4 @@ The desired result of any learning of an artificial neural network is the abilit
 We propose the weight regularization method for SNNs based on the biological ‘use it or lose it’ concept.       
 if a synaptic connection is not used in a brain, it is pruned. To ensure the pruning of unnecessary weight in SNNs, all the weights become time-dependent.   
 To test our regularization concept, we perform a series of experiments with SNNs. In experiments, the SNN is trained with the aim of classification of MNIST images of handwritten digits. The purpose of the experiments was to compare the SNN output activity with or without weight regularization. The SNN in all the experiments uses the leaky integrate-and-fire neurons with an adaptive threshold for excitatory neurons.    
-[Used architecture of SNN](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD) 
+[Used architecture of SNN](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/blob/main/SNN_architecture.jpg) 
