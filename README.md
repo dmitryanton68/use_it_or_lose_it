@@ -1,5 +1,5 @@
 # __Weight regularization in spiking neural networks__    
-The code illustrates the result reported at the [XXXII All-Russian workshop 'Neuroinformatics, its applications and data analysis' at Akademgorodok, Krasnoyarsk, Russia.](https://www.researchgate.net/publication/384485253_Weight_regularization_in_spiking_neural_networks)
+The code illustrates [the result reported at the XXXII All-Russian workshop 'Neuroinformatics, its applications and data analysis'](https://www.researchgate.net/publication/384485253_Weight_regularization_in_spiking_neural_networks) at Akademgorodok, Krasnoyarsk, Russia.
 
 ### ARTICLE:
 Antonov D.I., Sukhov S.V. "Weight regularization in spiking neural networks." Proceedings of XXXII All-Russian workshop 'Neuroinformatics, its applications and data analysis'. Krasnoyarsk. Russia. 2024. pp.10-17. 
