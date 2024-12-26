@@ -15,7 +15,7 @@ To ensure the pruning of unnecessary weight in SNNs, all the weights become time
 ![formula](formula.jpg)
 
 ***  
-About used architecture of spiking neural network see https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/blob/main/README.md   
+About used architecture of spiking neural network see my repo [learning_rule_STDP_all-LTD](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/blob/main/)   
 
  ![architecture of SNN](figure_SNN_architecture.jpg) 
 
