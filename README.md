@@ -4,8 +4,9 @@ The code illustrates [the result reported at the XXXII All-Russian workshop 'Neu
 ### ARTICLE:
 Antonov D.I., Sukhov S.V. "Weight regularization in spiking neural networks." Proceedings of XXXII All-Russian workshop 'Neuroinformatics, its applications and data analysis'. Krasnoyarsk. Russia. 2024. pp.10-17. 
 ***
-Abstract:    
-The desired result of any learning of an artificial neural network is the ability to generalize knowledge to solve new problems. However, mindless minimization of the loss function may result in overfitting of the model. Overfitting is a result of training taking into account both essential and insignificant features, noise. Regularization methods are intended to minimize the influence of random noise and to identify regular features. There are many regularization methods for 2nd generation artificial neural networks (L1 regularization, L2 regularization, dropout, etc.). But these conventional regularization methods are not suitable for spiking neural networks. This paper presents a new technique for regularizing weights in spiking neural networks.    
+Abstract: The desired result of any learning of an artificial neural network is the ability to generalize knowledge to solve new problems. However, mindless minimization of the loss function may result in overfitting of the model. Overfitting is a result of training taking into account both essential and insignificant features, noise. Regularization methods are intended to minimize the influence of random noise and to identify regular features. There are many regularization methods for 2nd generation artificial neural networks (L1 regularization, L2 regularization, dropout, etc.). But these conventional regularization methods are not suitable for spiking neural networks. This paper presents a new technique for regularizing weights in spiking neural networks.    
+***
+__The code is written in Python 3.8 using the [Brian 2.0](https://brian2.readthedocs.io/en/2.0/index.html) framework.__   
 ***
 We propose the weight regularization method for SNNs based on the biological __‘use it or lose it’__ concept:          
 * if a synaptic connection is not used in a brain, it is pruned. 
