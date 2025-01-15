@@ -13,8 +13,9 @@ We propose the weight regularization method for SNNs based on the biological __â
 
 To ensure the pruning of unnecessary weight in SNNs, all the weights become time-dependent:
 
-![formula](formula.jpg)
+![formula](formula.jpg) ,   
 
+where _t<sub>s</sub>_ is the time of the last spike, _Ï„<sub>prun</sub>_ is the characteristic time over which pruning occurs, _k<sub>p</sub>_ is the pruning coefficient.
 ***  
 About used architecture of spiking neural network see my repo [__learning_rule_STDP_all-LTD__](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/tree/main/)   
 
