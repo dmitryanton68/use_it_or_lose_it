@@ -15,7 +15,8 @@ To ensure the pruning of unnecessary weight in SNNs, all the weights become time
 
 ![formula](formula.jpg) ,   
 
-where _t<sub>s</sub>_ is the time of the last spike, _τ<sub>prun</sub>_ is the characteristic time over which pruning occurs, _k<sub>p</sub>_ is the pruning coefficient.
+where __t<sub>s</sub>__ is the time of the last spike, __τ<sub>prun</sub>__ is the characteristic time over which pruning occurs, __k<sub>p</sub>__ is the pruning coefficient.
+For frequently spiking neurons, the exponent in equation is almost unity and no weight decay occurs. However, the weights of a neuron silent over time _τ<sub>prun</sub>_ become pruned.
 ***  
 About used architecture of spiking neural network see my repo [__learning_rule_STDP_all-LTD__](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/tree/main/)   
 
