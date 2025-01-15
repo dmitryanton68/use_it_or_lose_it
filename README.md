@@ -4,7 +4,7 @@ The code illustrates [the result reported at the XXXII All-Russian workshop 'Neu
 ### ARTICLE:
 Antonov D.I., Sukhov S.V. "Weight regularization in spiking neural networks." Proceedings of XXXII All-Russian workshop 'Neuroinformatics, its applications and data analysis'. Krasnoyarsk. Russia. 2024. pp.10-17. 
 ***
-Abstract: The desired result of any learning of an artificial neural network is the ability to generalize knowledge to solve new problems. However, mindless minimization of the loss function may result in overfitting of the model. Overfitting is a result of training taking into account both essential and insignificant features, noise. Regularization methods are intended to minimize the influence of random noise and to identify regular features. There are many regularization methods for 2nd generation artificial neural networks (L1 regularization, L2 regularization, dropout, etc.). But these conventional regularization methods are not suitable for spiking neural networks. This paper presents a new technique for regularizing weights in spiking neural networks.    
+Abstract: The desired result of any learning of an artificial neural network is the ability to generalize knowledge to solve new problems. However, mindless minimization of the loss function may result in overfitting of the model. Overfitting is a result of training taking into account both essential and insignificant features, noise. Regularization methods are intended to minimize the influence of random noise and to identify regular features. There are many regularization methods for the 2nd generation artificial neural networks (L1 regularization, L2 regularization, dropout, etc.). But these conventional regularization methods are not suitable for spiking neural networks. This paper presents a new technique for regularizing weights in spiking neural networks.    
 ***
 __The code is written in Python 3.8 using the [Brian 2.0](https://brian2.readthedocs.io/en/2.0/index.html) framework.__   
 ***
@@ -19,7 +19,7 @@ where __t<sub>s</sub>__ is the time of the last spike, __τ<sub>prun</sub>__ is 
 For frequently spiking neurons, the exponent in equation is almost unity and no weight decay occurs.      
 However, the weights of a neuron silent over time _τ<sub>prun</sub>_ become pruned.
 ***  
-About used architecture of spiking neural network see my repo [__learning_rule_STDP_all-LTD__](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/tree/main/)   
+About the used architecture of spiking neural network, see my repo [__learning_rule_STDP_all-LTD__](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/tree/main/)   
 
  ![architecture of SNN](figure_SNN_architecture.jpg) 
 
