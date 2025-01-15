@@ -44,8 +44,8 @@ _Neuronal output activity (total number of spikes) for different datasets_
 |3|‘Known’ digits|416|344|
 |4|‘Unknown’ digits|346|240|    
 
-The result of training with and without weight regularization is illustrated in Fig.
+The result of training with and without weight regularization is illustrated in Fig. below
 ![784 weights of the synaptic group S1, associated with one of the excitatory neurons: a. in the model without regularization technique; b. the same weights in the model with regularization](figure_before_n_after_weight_regularization.jpg)
-Fig.  784 weights of the synaptic group S1, associated with one of the excitatory neurons:    
-a. in the model without regularization technique;    
+__Figure:__  784 weights of the synaptic group S1, associated with one of the excitatory neurons:      
+a. in the model without regularization technique;      
 b. the same weights in the model with regularization
