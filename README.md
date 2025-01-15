@@ -21,7 +21,7 @@ However, the weights of a neuron silent over time _τ<sub>prun</sub>_ become pru
 ***  
 About the used architecture of spiking neural network, see my repo [__learning_rule_STDP_all-LTD__](https://github.com/dmitryanton68/learning_rule_STDP_all-LTD/tree/main/)   
 
- ![architecture of SNN](figure_SNN_architecture.jpg) 
+
 
 ***
 To test our regularization concept, we perform a series of experiments with SNNs. In experiments, the SNN is trained with the aim of classification of MNIST images of handwritten digits. The purpose of the experiments was to compare the SNN output activity with or without weight regularization. The SNN in all the experiments uses _the leaky integrate-and-fire_ neurons with _an adaptive threshold_ for excitatory neurons.     
